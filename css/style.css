@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css");
 html,
 body,
 div,
@@ -93,7 +94,7 @@ input,
 button {
   margin: 0;
   padding: 0;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 17px 'Jeju Myeongjo', 'Open Sans', sans-serif;
 }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -114,7 +115,7 @@ body,
 }
 body {
   background: #fff;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 17px 'Jeju Myeongjo', 'Open Sans', sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -510,13 +511,13 @@ a.article-title:hover,
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-family: 'Jeju Myeongjo', 'Open Sans', sans-serif;
   font-size: 1.4em;
   margin: 1.4em 20px;
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 16px;
+  font-size: 17px;
   margin: 1.4em 0;
   font-family: font-sans;
 }
@@ -812,7 +813,7 @@ a.article-title:hover,
   padding: 15px 0;
   overflow: auto;
   color: #fff;
-  line-height: 22.4px;
+  line-height: 23.799999999999997px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -821,7 +822,7 @@ a.article-title:hover,
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
   background: #f2f2f2;
@@ -872,7 +873,7 @@ a.article-title:hover,
   text-align: right;
 }
 .article-entry .highlight .line {
-  height: 22.4px;
+  height: 23.799999999999997px;
 }
 .article-entry .gist {
   margin: 0;
@@ -880,7 +881,7 @@ a.article-title:hover,
 }
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   margin: 0;
 }
 .article-entry .gist .gist-file .gist-data {
@@ -1084,12 +1085,12 @@ pre .php .xml {
 .fancybox-skin {
   padding: 0 !important;
   border-radius: 0;
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-family: 'Jeju Myeongjo', 'Open Sans', sans-serif;
 }
 .fancybox-skin .fancybox-title .child {
   background: none;
   font-weight: 400;
-  font-size: 16px;
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-size: 17px;
+  font-family: 'Jeju Myeongjo', 'Open Sans', sans-serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
