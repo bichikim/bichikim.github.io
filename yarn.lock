@@ -689,6 +689,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@quasar/extras@^1.3.2":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.5.1.tgz#35e7bfe4c5b92b3d149aabbe78f8490e8b043cdb"
+  integrity sha512-GfiaDvwzsQv+9Pqfk2mQ2ajC/NUNmytY0cFbuq1KuWdY5MyzGumWIN6USS4c4wDa0SBQJCEXCbgpsC15Zsytlw==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -783,7 +788,7 @@
     babel-plugin-module-resolver "3.2.0"
     core-js "^2.6.5"
 
-"@vue/babel-preset-jsx@^1.0.0":
+"@vue/babel-preset-jsx@^1.0.0", "@vue/babel-preset-jsx@^1.1.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@vue/babel-preset-jsx/-/babel-preset-jsx-1.1.2.tgz#2e169eb4c204ea37ca66c2ea85a880bfc99d4f20"
   integrity sha512-zDpVnFpeC9YXmvGIDSsKNdL7qCG2rA3gjywLYHPCKDT10erjxF4U+6ay9X6TW5fl4GsDlJp9bVfAVQAAVzxxvQ==
@@ -6423,6 +6428,11 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+quasar@^1.3.0:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.8.5.tgz#13d04c086b9c248e49c318f1561750c6e7c1f74e"
+  integrity sha512-iU9pitB0tEPwlJtNAJLnzIOSpolhZTPnfHBPNgLLxJSNXrgt5uQAuCcLXuG61AxRNhyrKdmsGIEMOYl/Aakv2Q==
 
 query-string@^5.0.1:
   version "5.1.1"

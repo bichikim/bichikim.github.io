@@ -1,4 +1,10 @@
+import '@/styles/quasar.styl'
 import '@/styles/index.styl'
+import 'quasar/dist/quasar.ie.polyfills'
+import '@quasar/extras/material-icons/material-icons.css'
+import Quasar, {Platform} from 'quasar'
+import enUs from 'quasar/lang/en-us'
+import ioniconsV4 from 'quasar/icon-set/ionicons-V4'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 
@@ -9,6 +15,15 @@ export default (
     router, // the router instance for the app
     siteData, // site metadata
   }) => {
+
+  Vue.use(Quasar, {
+    lang: enUs,
+    all: true,
+    iconSet: ioniconsV4,
+    config: {
+    },
+  })
+
   const requireComponent = require.context(
     '@/components', false, /[\w-].vue$/
   )
@@ -23,4 +38,5 @@ export default (
 // Register component globally
     Vue.component(componentName, componentConfig.default || componentConfig)
   })
+
 }

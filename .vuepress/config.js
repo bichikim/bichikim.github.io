@@ -10,7 +10,27 @@ module.exports = {
       },
     ],
   ],
+  dest: './docs',
   chainWebpack: (config) => {
+    config.resolve.alias
+    .set('@', path.resolve(__dirname, './'))
+      // quasar
+    .set(
+      'quasar-variables',
+      path.resolve('src/styles/quasar.variables.styl')
+    )
+    .set(
+      'quasar-variables-styl',
+      'quasar/src/css/variables.styl'
+    )
+    .set(
+      'quasar-styl',
+      'quasar/dist/quasar.styl'
+    )
+    .set(
+      'quasar-addon-styl',
+      'quasar/src/css/flex-addon.styl'
+    )
 
     // pug
     config.module.rule('pug').
@@ -49,7 +69,7 @@ module.exports = {
       .use('ts')
       .loader('ts-loader')
       .options({
-      configFile: path.resolve(__dirname, '../../tsconfig.json'),
+      configFile: path.resolve(__dirname, '../tsconfig.json'),
       transpileOnly: true,
       appendTsxSuffixTo: [/\.vue$/],
     }).end().end()
