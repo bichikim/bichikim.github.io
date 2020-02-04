@@ -1,1 +1,0 @@
-# bichikim.github.io
