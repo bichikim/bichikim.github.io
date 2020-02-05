@@ -10,7 +10,6 @@ module.exports = {
       },
     ],
   ],
-  dest: './docs',
   chainWebpack: (config) => {
     config.resolve.alias
     .set('@', path.resolve(__dirname, './'))
@@ -69,7 +68,7 @@ module.exports = {
       .use('ts')
       .loader('ts-loader')
       .options({
-      configFile: path.resolve(__dirname, '../tsconfig.json'),
+      configFile: path.resolve(__dirname, '../../tsconfig.json'),
       transpileOnly: true,
       appendTsxSuffixTo: [/\.vue$/],
     }).end().end()
