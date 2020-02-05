@@ -1,0 +1,31 @@
+{
+  "name": "bichikim.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bichikim/bichikim.github.io.git",
+  "author": "Bichi Kim <bichi@live.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.3.2",
+    "@vue/babel-preset-jsx": "^1.1.1",
+    "eslint": "^6.6.0",
+    "lodash": "^4.17.15",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "quasar": "^1.3.0",
+    "raw-loader": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "vue-property-decorator": "^8.3.0",
+    "vuepress": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^13.7.0",
+    "fs-extra": "^8.1.0"
+  }
+}
