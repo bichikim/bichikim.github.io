@@ -12,7 +12,8 @@ function deliver() {
     return
   }
 
-  fs.moveSync(distPath, docsPath)
+  fs.moveSync(distPath, docsPath, {overwrite: true})
+  console.log(`Delivery completed from: ${distPath} to: ${existDist}`)
 
 }
 
