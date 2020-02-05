@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "cname": "node docs/.vuepress/cname.js"
   },
   "dependencies": {
     "@vue/babel-preset-jsx": "^1.1.1",
