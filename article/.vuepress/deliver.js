@@ -1,6 +1,11 @@
+/**
+ * move dist to root
+ * index.html should be root
+ * @type {path.PlatformPath | path}
+ */
+
 const path = require('path')
 const fs = require('fs-extra')
-
 const distPath = path.join(__dirname, 'dist')
 const docsPath = path.join(__dirname, '../../docs')
 
@@ -13,7 +18,7 @@ function deliver() {
   }
 
   fs.moveSync(distPath, docsPath, {overwrite: true})
-  console.log(`Delivery completed from: ${distPath} to: ${existDist}`)
+  console.log(`Delivery completed from: ${distPath} to: ${docsPath}`)
 
 }
 
