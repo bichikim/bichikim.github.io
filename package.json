@@ -11,13 +11,15 @@
     "cname": "node docs/.vuepress/cname.js"
   },
   "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@quasar/extras": "^1.3.2",
+    "quasar": "^1.3.0",
     "@vue/babel-preset-jsx": "^1.1.1",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "lodash": "^4.17.15",
     "pug": "^2.0.4",
-    "@babel/core": "^7.8.4",
     "pug-plain-loader": "^1.0.0",
-    "babel-loader": "^8.0.6",
     "raw-loader": "^3.0.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@types/fs-extra": "^8.0.1",
     "@types/node": "^13.7.0",
+    "@vuepress/plugin-pwa": "^1.3.0",
     "fs-extra": "^8.1.0"
   }
 }

@@ -1,6 +1,11 @@
 import '@/styles/index.styl'
+import '@/styles/quasar.styl'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import QuasarCommon from 'quasar/src/index.common'
+import 'quasar/dist/quasar.ie.polyfills'
+
+import iconSet from 'quasar/icon-set/ionicons-v4'
 
 export default (
   {
@@ -10,6 +15,13 @@ export default (
     siteData, // site metadata
   }) => {
 
+  // fix $q undefined
+  options.$q = QuasarCommon.Quasar.install.$q
+
+  Vue.use(QuasarCommon.Quasar, {
+    all: true,
+    iconSet,
+  })
 
   const requireComponent = require.context(
     '@/components', false, /[\w-].vue$/

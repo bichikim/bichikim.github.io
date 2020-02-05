@@ -1,5 +1,5 @@
-<template lang="pug">
-  .test hello
+<template>
+  <q-btn label="hello"></q-btn>
 </template>
 
 <style scoped lang="stylus">
