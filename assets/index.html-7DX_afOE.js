@@ -1,0 +1,1 @@
+const i=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"hello","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1704458566000,"contributors":[{"name":"Bichi Kim","email":"bichi@live.co.kr","commits":4},{"name":"bichikim","email":"bichi@live.co.kr","commits":1}]},"filePathRelative":"README.md"}');export{i as data};
